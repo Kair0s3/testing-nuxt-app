@@ -17,7 +17,11 @@
 <script>
 export default {
   name: 'IndexPage',
-  testCampaignAddress: 123,
-  testUserAddress: 456
+  data () {
+    return {
+      testCampaignAddress: 123,
+      testUserAddress: 456
+    }
+  }
 }
 </script>
